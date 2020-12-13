@@ -1,0 +1,145 @@
+
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    background-color: #18e7ee50;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #3315df4d;
+}
+body{
+    background-color: rgba(255, 0, 0, 0.514);
+}
+
+.heading{
+    background-color: silver;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.images1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: teal;
+}
+
+.images2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+}
+
+.images3{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: violet;
+}
+
+.images4{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: tomato;
+}
+
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: steelblue;
+}
+
+a:link{
+    color: slategrey;
+}
+
+a:visited{
+    color: thistle;
+}
+
+.images{
+    position: relative;
+}
+
+.images p,l{
+    position: absolute;
+    top:25%;
+    left:25%;
+    transform: translate(-25%, -25%);
+    opacity:0;
+}
+
+.images:hover p,l{
+    opacity:1;
+}
+
+.images1{
+    position: relative;
+}
+
+.images1 p,l{
+    position: absolute;
+    top:25%;
+    left:25%;
+    transform: translate(-25%, -25%);
+    opacity:0;
+}
+
+.images1:hover p,l{
+    opacity:1;
+}
+
+.images2{
+    position: relative;
+}
+
+.images2 p,l{
+    position: absolute;
+    top:25%;
+    left:25%;
+    transform: translate(-25%, -25%);
+    opacity:0;
+}
+
+.images2:hover p,l{
+    opacity:1;
+}
+
+.images3{
+    position: relative;
+}
+
+.images3 p,l{
+    position: absolute;
+    top:25%;
+    left:25%;
+    transform: translate(-25%, -25%);
+    opacity:0;
+}
+
+.images3:hover p.l{
+    opacity:1;
+}
+
+.images4{
+    position: relative;
+}
+
+.images4 p,l{
+    position: absolute;
+    top:25%;
+    left:25%;
+    transform: translate(-25%, -25%);
+    opacity:0;
+}
+
+.images4:hover p,l{
+    opacity:1;
+}
+
